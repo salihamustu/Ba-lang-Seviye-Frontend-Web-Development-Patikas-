@@ -1,0 +1,56 @@
+<h1> I'm Saliha Muştu </h1>
+
+ <h2>About Me </h2>
+
+<p>1- My name is Saliha. </p>
+
+<p>2- I love spending time with my pets.</p>
+
+<p>3- I love doing sports. Yoga and runnig are two of my favorite sports.</p>
+    <!-- I'm interested in calisthenics. -->
+
+<p>4- I'm currently interested in creating the  visual part of web development.</p>
+
+<p>5- I love eating vegetables and fruits. I love cooking my own food.</p>
+    <!-- I may have a weakness for frozen forest berries. I love them that much. -->
+
+
+<p>I don't prefer watching series and movies.</p>
+
+<ul>
+    <p> Series I watch: </p>
+    <li>
+        <a href="https://www.sinemalar.com/dizi/250398/anne-with-an-e">
+            1. Anne with an E
+        </a>
+    </li>
+    <li> 2. My Name </li>
+    <li> 3. Fallout  </li>
+</ul>
+
+<ul>
+    <p>Movies I watch:</p>
+    <li>
+        <a href="https://www.sinemalar.com/film/605/matrix">
+            1. Matrix
+        </a>
+    </li>
+    <li>2. Alita</li>
+    <li>3. My Name</li>
+</ul>
+
+<ul>
+    <p>Books I like</p>
+    <li>1. Anne with an e</li>
+    <li>2. Neden ile Başla</li>
+    <li>3. Rezonans Kanunu</li>
+</ul>    
+
+
+<ul>
+    <img src="images/2.jpg" alt="Dark Days">
+    
+    <p>  We must focus on ourselves so that the dark and hapeless days we live in will one day end. We must know that the future is us.  </p>
+
+    <p> <strong>Hope is only yourself. </strong> </p>
+</ul>
