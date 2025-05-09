@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaz Kahvaltısı | Acai Bowl Tarifi </title>
+</head>
+<body>
+    <!-- Başlık -->
+    <h1 style="text-align: center;">Yaz Sıcağnda Serinletecek ACAİ BOWL Tarifi</h1>
+    <hr>
+
+    <!-- Tarif Videosuna Ulaşılabilecek Link-->
+     <h2 style="text-align: center;" >YouTube Tarif Videosuna Ulaşamak İçin Aşağıya Tıklayın : <br>
+        <a href="https://www.youtube.com/shorts/R4xxRf5tAqk">Salmustu Acai Bowl Recipe</a>
+     </h2>
+     
+
+    <!-- Malzeme Listesi -->
+    <h2 style="text-align: center;" >Serinlemek İçin Gereken Malzemeler :</h2>
+    <p> 
+        <ul style="text-align: center;">
+            <p>120g Frozen Banana</p>
+            <p>75g Frozen Blackberries</p>
+            <p>75g Frozen Raspberries</p>
+            <p>80g Frozen Strawberries</p>
+            <p>150ml milk (vegan milk)</p>
+            <p>5g Coconut Oil</p>
+            <p>5 ice cubes</p>
+        </ul>
+    </p>
+
+    <!-- Süslemek İçin Kullanılacak Malzemeler -->
+    <h3 style="text-align: center;" > Süslemek İçin Kullanılan Malzemeler </h3>
+    <p> 
+        <ul style="text-align: center;">
+            <p>20g Forest Fruit</p>
+            <p>10g Cinnamon Oats</p>
+            <p>10g Chia Seeds</p>
+            <p>40g Fresh Kiwi</p>
+            <p>20g Fresh Banana</p>
+            <p>15g Sugar Free Peanut Butter</p>
+        </ul>
+    </p>
+
+    <!-- Tarifin Yapılışını Anlatan Alan -->
+    <h3 style="text-align: center;" > Tarifin Yapılışı :</h3>
+    <p style="text-align: center;" >İlk önce sıvı malzemeye blendırın içerisine ekleyin. <br>
+                                    Donmuş ürünlerin yarısnı ve hindistan c. yağını ekleyin. <br>
+                                    Blendırı çalıştırın. (1dk boyunca) <br>
+                                    Kalan donmuş ürünleri ekleyin ve tekrar çalıştırın.(1dk boyunca) <br>
+                                    Hazırlanan karışımı tabağa dökün ve süsleyin. <br>
+    </p>
+
+    <!-- Afiyet Olsun Yazısı -->
+    <h1 style="text-align: center;" > AFİYET OLSUN </h1>
+</body>
+</html>
+
