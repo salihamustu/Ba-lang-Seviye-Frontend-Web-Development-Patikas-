@@ -1,0 +1,236 @@
+<!------------------------------------------------------------------------------------------------------------------------ indext.html --------------------------------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title> FRESH PAZAR </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Başlık -->
+    <div class="banner">
+        <h1> 🍓 FRESH PAZAR 🍓 </h1>
+        <p> TAPTAZE, FRESH MEYVELER BURADA! </p>
+    </div>
+    
+    <!-- Ana Sayfa -->
+     <h1>
+        <a href="indext.html">ANA SAYFA</a>
+     </h1>
+
+    <!-- Ürünlerimiz -->
+     <h1>
+        <a href="products.html">ÜRÜNLERİMİZ</a>
+     </h1>
+
+    <!-- Hakıımızda -->
+     <h1>
+        <a href="about-us.html">HAKKIMIZDA</a>
+     </h1>
+
+    <!-- İletişim -->
+     <h1>
+        <a href="contact.html">İLETİŞİM</a>
+     </h1>
+</body>
+</html>
+
+
+<!--------------------------------------------------------------------------------------------------------------- products.html ---------------------------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title> FRESH PAZAR </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Başlık -->
+    <div class="banner">
+        <h1> 🍓 FRESH PAZAR 🍓 </h1>
+        <p> TAPTAZE, FRESH MEYVELER BURADA! </p>
+    </div>
+    
+    <!-- Ana Sayfa -->
+     <h1>
+        <a href="indext.html">ANA SAYFA</a>
+     </h1>
+
+    <!-- Ürünlerimiz -->
+     <h1>
+        <a href="products.html">ÜRÜNLERİMİZ</a>
+     </h1>
+    <div class="urun">
+        <h2>Çilek</h2>
+        <img src="cilek.jpg" alt="Çilek" width="200">
+        <p>500g | 100 TL</p>
+        <button>Sepete Ekle</button>
+    </div>
+
+    <div class="urun">
+        <h2>Kiraz</h2>
+        <img src="kiraz.jpg" alt="Kiraz" width="200">
+        <p>500g | 165 TL</p>
+        <button>Sepete Ekle</button>
+    </div>
+
+    <div class="urun">
+        <h2>Ahududu</h2>
+        <img src="ahududu.jpg" alt="Ahududu" width="200">
+        <p>250g | 185 TL</p>
+        <button>Sepete Ekle</button>
+    </div>
+
+</body>
+</html>
+
+<!-------------------------------------------------------------------------------------------------------about-us.html -------------------------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title> FRESH PAZAR </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Başlık -->
+    <div class="banner">
+        <h1> 🍓 FRESH PAZAR 🍓 </h1>
+        <p> TAPTAZE, FRESH MEYVELER BURADA! </p>
+    </div>
+    
+    <!-- Ana Sayfa -->
+     <h1>
+        <a href="indext.html">ANA SAYFA</a>
+     </h1>
+
+    <!-- Hakıımızda -->
+     <h1>
+        <a href="about-us.html">HAKKIMIZDA</a>
+     </h1>
+
+     <p>
+        Fresh Pazar olarak, doğallığı sofralarınıza taşımak için yola çıktık. <br>
+        Her biri özenle seçilen meyvelerimizi, tazeliğini kaybetmeden en kısa sürede size ulaştırmak bizim için en önemli öncelik. <br>
+        <br>
+        Yerli üreticilerle doğrudan çalışıyor, mevsiminde toplanan ürünleri meyve severlerle buluşturuyoruz. <br>
+        Özellikle yaz aylarının vazgeçilmezi kırmızı meyveleri (çilek, kiraz, ahududu ve daha fazlasını) taptaze bir şekilde sunmak için buradayız. <br>
+        <br>
+        Sağlıklı beslenmenin temelinin doğal gıdalardan geçtiğine inanıyoruz. <br>
+        Fresh Pazar'da katkı maddesi yok, uzun raf ömrü tuzağı yok — sadece meyvenin en saf hali var. <br>
+        <br>
+        Bizim için her müşteri bir komşu, her sipariş özenli bir teslimat demek. <br>
+        Güler yüzlü hizmetimizle ve kaliteli ürünlerimizle, sizi de Fresh Pazar ailesinde görmekten mutluluk duyarız. <br>
+     </p>
+
+    <!-- İletişim -->
+     <h1>
+        <a href="contact.html">İLETİŞİM</a>
+     </h1>
+</body>
+</html>
+
+<!--------------------------------------------------------------------------------------------------- contact.html -------------------------------------------------------------------------------------------------------------------------------->
+
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title> FRESH PAZAR </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Başlık -->
+    <div class="banner">
+        <h1> 🍓 FRESH PAZAR 🍓 </h1>
+        <p> TAPTAZE, FRESH MEYVELER BURADA! </p>
+    </div>
+    
+    <!-- Ana Sayfa -->
+     <h1>
+        <a href="indext.html">ANA SAYFA</a>
+     </h1>
+
+    <!-- Ürünlerimiz -->
+     <h1>
+        <a href="products.html">ÜRÜNLERİMİZ</a>
+     </h1>
+
+    <!-- İletişim -->
+     <h1>
+        <a href="contact.html">İLETİŞİM</a>
+     </h1>
+
+     <p>
+        📞 İLETİŞİM <br>
+        Bizimle iletişime geçmek için: <br>
+        <hr>
+        📍 Adres: <br>
+        Fresh Pazar – Doğal Ürünler Deposu <br>
+        Yaz Mahallesi, Kiraz Sokak No:12 <br>
+        Kadıköy / İstanbul <br>
+        <hr>
+        📞 Telefon: <br>
+        0 (212) 123 45 67 <br>
+        0 (532) 765 43 21 (WhatsApp destek) <br>
+        <hr>
+        ✉️ E-posta: <br>
+        freshpazar@gmail.com <br>
+        <hr>
+        🕒 Çalışma Saatleri: <br> 
+        Pazartesi – Cuma: 09:00 – 18:00 <br>
+        Cumartesi - Pazar günleri kapalıyız. <br>
+        <hr>
+        📱 Sosyal Medya: <br>
+        Instagram: @freshpazar <br>
+        Facebook: Fresh Pazar <br>
+     </p>
+
+
+</body>
+</html>
+
+
+<!-------------------------------------------------------------------------------------------------------------- style.css ------------------------------------------------------------------------------------------------------------------------------->
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f7; /* Yaz havası için açık pembe */
+    text-align: center;
+}
+
+.banner {
+    background-color: #ff4d6d;
+    color: white;
+    padding: 20px;
+}
+
+.urun {
+    background-color: white;
+    border: 1px solid #ffccd5;
+    margin: 15px;
+    padding: 15px;
+    display: inline-block;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.urun img {
+    border-radius: 8px;
+}
+
+button {
+    background-color: #c9184a;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a4133c;
+}
