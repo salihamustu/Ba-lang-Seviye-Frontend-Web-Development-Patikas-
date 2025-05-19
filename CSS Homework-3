@@ -1,0 +1,267 @@
+<!-------------------------------------------- index.html -------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="top-left">
+            <a href="https://web.archive.org/web/20191130234759/https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+            &nbsp;&nbsp;
+            <a href="https://web.archive.org/web/20191130234759/https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+        </div>
+        <div class="top-right">
+            <a href="https://web.archive.org/web/20191130234759/https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
+            &nbsp;&nbsp;
+            <a href="https://web.archive.org/web/20191130234759/https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
+            &nbsp;&nbsp;
+            <a href="https://web.archive.org/web/20191130234759/https://www.google.com/intl/en/about/products?tab=wh">
+                <img src="appsbutton.svg" alt="Apps Button" width="16px" height="16px">
+            </a>
+            <a href="https://github.com/semanurozyilmaz" target="_blank" class="profil-picture">
+                <img src="Semanur_fotograf.jpeg" alt="Semanur Özyılmaz" width="26px" height="26px">
+            </a>
+        </div>
+    </div>
+    <div class="logo">
+        <img src="logo.png" alt="Google">
+    </div>
+    <div class="search-area">
+        <div class="search">
+            <div class="search-img">
+                <span>
+                    <svg
+                      focusable="false"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                      ></path>
+                    </svg>
+                  </span>
+            </div>
+            <div class="input-area">
+                <input type="text" class="input" maxlength="2048" autofocus="true">
+            </div>
+            <div class="tooltip">
+                <img class="mic" src="mic-icon.png" alt="Microphone" width="15px">
+                <span class="tooltiptext">Search by voice</span>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <input type="submit" value="Google Search">
+        <input type="submit" value="I'm Feeling Lucky">
+      </div>
+    </div>
+    <div class="footer">
+        <div class="footer-left">
+            <a href="https://web.archive.org/web/20191130234759/https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+            &nbsp;&nbsp;
+            <a href="https://web.archive.org/web/20191130234759/https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+            &nbsp;&nbsp;
+            <a href="https://web.archive.org/web/20191130234759/https://google.com/search/howsearchworks/?fg=1">How Search works</a>
+        </div>
+        <div class="footer-right">
+            <a href="https://web.archive.org/web/20191130234759/https://policies.google.com/privacy?fg=1">Privacy</a>
+            <a href="https://web.archive.org/web/20191130234759/https://policies.google.com/terms?fg=1">Terms</a>
+            <a href="https://web.archive.org/web/20191130234759/https://www.google.com/preferences?hl=en">Settings</a>
+        </div>
+    </div>
+
+</body>
+</html>
+<!-------------------------------------------- style.css -------------------------------------------------------------->
+div.top>div.top-left>a {
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none; /* Varsayılan altını çizili efekti kaldırır */
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+div.top>div.top-right>a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none; /* Varsayılan altını çizili efekti kaldırır */
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+div.top>div.top-right>a:hover {
+    color: #000;
+    opacity: 0.75;
+}
+
+div.top>div>a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde altını çizer */
+}
+
+.top {
+    display: flex; /* Flexbox kullanımı */
+    justify-content: space-between; /* İki yana yaslama */
+    align-items: center;
+}
+
+.top-left, .top-right {
+    display: flex;
+    align-items: center; /* İçeriği dikey olarak ortalar */
+}
+
+.profil-picture img {
+    border-radius: 50%; /* Fotoğrafı yuvarlak yapar */
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.logo {
+    text-align: center; /* Yatayda ortalar */
+    margin-top: 100px;
+}
+
+.input-area {
+    text-align: center; /* Yatayda ortalar */
+}
+
+input {
+    border: none;
+}
+
+div.input-area > input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 480px;
+    height: 20px;
+}
+
+.search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 20px auto;
+    width: 582px;
+    border-radius: 20px; /* Tüm köşeleri ovalleştirir */
+}
+
+.search-area:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    border: none;
+    padding: 10px;
+    justify-content: space-between; /* İki yana yaslama */
+}
+
+.search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+
+.mic {
+    margin: 0 8px;
+}
+
+.buttons {
+    text-align: center; /* Yatayda ortalar */
+}
+
+div.buttons > input {
+    height: 36px;
+    color: #5f6368;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #f2f2f2;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.tooltip {
+    position: relative; /* Kapsayıcıyı konumlandırır */
+    display: inline-block; /* İçerikleri satır içi yapar */
+}
+
+.tooltiptext {
+    visibility: hidden; /* Varsayılan olarak gizli */
+    width: 120px;
+    background-color: black; 
+    color: #fff;
+    text-align: center; /* Metni ortalar */
+    padding: 5px 0; /* İç boşluk */
+    position: absolute; /* Tooltip'in konumunu ayarlar */
+    z-index: 1; /* Tooltip diğer öğelerin üstünde görünür */
+    top: 125%; /* Görselin altında yer alır */
+    left: 50%; /* Yatay ortalama */
+    margin-left: -60px; /* Yatay konum düzeltme */
+    opacity: 0; /* Başlangıçta görünmez */
+    transition: opacity 0.3s; /* Geçiş efekti */
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible; /* Hover durumunda görünür */
+    opacity: 1; /* Tamamen görünür hale gelir */
+}
+
+.footer {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    display: flex; /* Flexbox kullanımı */
+    justify-content: space-between; /* İki yana yaslama */
+    height: 35px;
+    align-items: center; /* İçeriği dikey olarak ortalar */
+}
+
+div.footer-left>a {
+    color: #5f6368;
+    text-decoration: none; /* Varsayılan altını çizili efekti kaldırır */
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+div.footer-right>a {
+    color: #5f6368;
+    text-decoration: none; /* Varsayılan altını çizili efekti kaldırır */
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+div.footer-left>a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde altını çizer */
+}
+
+div.footer-right>a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde altını çizer */
+}
