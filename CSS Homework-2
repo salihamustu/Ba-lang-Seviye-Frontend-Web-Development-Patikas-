@@ -1,0 +1,104 @@
+<!------------------------------------------ index.html ---------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google 1998</title>
+    <link rel="icon" href="/patika css ödev 2/img/google icon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="container1">
+            <div class="logo">
+                <img src="/patika css ödev 2/img/google.jpg" alt="Google old logo">
+            </div>
+        </div>
+        <div class="container2">
+            <p>Search the web using Google!</p>
+            <form action="#">
+                <input type="text" size="40"><br>
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm feeling lucky">
+            </form>
+        </div>
+        <div class="container3">
+            <div class="box1">
+                <p>Speacial Searches</p>br
+                <a href="#">Standford Search</a>
+                <a href="#">Linux Search</a>
+            </div>
+            <div class="box2">
+                <a href="#">Help!</a><br>
+                <a href="#">About Google!</a>
+                <br>
+                <a href="#">Company Info</a>
+                <br>
+                <a href="#">Google Logos</a>
+            </div>
+            <div class="box3">
+                <p>Get Google</p>
+                <p>Updates monthly:</p>
+                <form action="#">
+                    <input type="text" value="Your E-mail"> 
+                    <br>
+                    <input type="submit" value="Subscribe">
+                    <a href="#">archive</a>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="container4">
+            <p>Copyright © 1998 Google Inc.</p>
+
+        </div>
+    </div>
+</body>
+</html>
+
+<!------------------------------------------ style.css ---------------------------------------------------->
+
+.container1 {
+    text-align: center;
+}
+
+.container2 {
+    background-color: rgb(230, 221, 211);
+    margin: 0 100px;
+    height: 60px;
+    text-align: center;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    margin-left: 100px;
+    margin-top: 3px;
+    margin-right: 100px;
+}
+
+.container4 {
+    text-align: center;
+}
+
+.box3 a{
+    display: inline-block;
+}
+
+.container3 div {
+    background-color: rgb(4, 116, 46);
+    margin-right: 1px;
+    margin-left: 1px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
